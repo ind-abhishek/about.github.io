@@ -150,8 +150,8 @@ html {
 }
 
 .mobile-nav-icon {
-    width: 60px;
-    height: 60px;
+    width: 4rem;
+    height: 4rem;
     color: #6FEDD6;
 }
 
@@ -214,7 +214,7 @@ html {
 
     .navbar-link:hover,
     .navbar-link:active {
-        color: #6FEDD6;
+        color: #2ecc71;
     }
 
     .navbar-list .btn {
@@ -244,13 +244,54 @@ html {
 }
 
 
+@media only screen and (min-width: 410px) and (max-width: 449px) {
+    .mobile-navbar-btn {
+        margin-left: 320px;
+    }
+}
+
+@media only screen and (min-width: 449px) and (max-width: 502px) {
+    .mobile-navbar-btn {
+        margin-left: 355px;
+    }
+}
+
+@media only screen and (min-width: 502px) and (max-width: 550px) {
+    .mobile-navbar-btn {
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 570px) {
+    .mobile-navbar-btn {
+        margin-left: 450px;
+    }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 614px) {
+    .mobile-navbar-btn {
+        margin-left: 487px;
+    }
+}
+
+@media only screen and (min-width: 614px) and (max-width: 717px) {
+    .mobile-navbar-btn {
+        margin-left: 520px;
+    }
+}
+
 /* ---phone */
 
-@media screen and (max-width: 420px) {
+
+@media only screen and (min-width: 374px) and (max-width: 410px) {
     .mobile-navbar-btn {
-
         margin-left: 285px;
+    }
+}
 
+@media only screen and (max-width: 374px) {
+    .mobile-navbar-btn {
+        margin-left: 265px;
     }
 }
 
@@ -550,3 +591,4 @@ html {
     padding: 12px 0;
     font-size: 16px;
 }
+
